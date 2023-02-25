@@ -2,7 +2,13 @@
     /*font-family: 'Open Sans', Sans-serif; */      
     font-family: 'Frank Ruhl Libre', serif;
     /*font-family: 'Noto Sans', Sans-serif;*/
-    max-width: 100%;
+    
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+   aside{ 
+    font-size: 3vw;
+   }
 }
 
 html{                                           /**     Configuración general y cuadrícula    **/
@@ -80,7 +86,7 @@ li a{
 
 
 aside{                                      /**     Barra lateral       **/
-    width: 100%;
+    
     text-align: center;
     padding: 10% 10% 0 0;
 }
@@ -92,11 +98,14 @@ aside{                                      /**     Barra lateral       **/
     
 }
 
-
+/*
+aside b, aside p{
+    max-width: 100%;
+}
+*/
 
 #boton{                                     /**     Botón desplegar formulario  **/
     min-width: 20px;
-   /* max-width: 15%; */
     background-color: black;
     color: rgb(200, 200, 200);
 }
