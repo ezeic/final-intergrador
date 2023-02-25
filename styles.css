@@ -1,0 +1,142 @@
+*{                                              /**    Tipografía general para la página     **/
+    /*font-family: 'Open Sans', Sans-serif; */      
+    font-family: 'Frank Ruhl Libre', serif;
+    /*font-family: 'Noto Sans', Sans-serif;*/
+    max-width: 100%;
+}
+
+html{                                           /**     Configuración general y cuadrícula    **/
+    background-color: rgb(200, 200, 200);
+}
+
+body{
+    margin: 0%;
+}
+
+.contenedor-general{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 1% 5%;
+}
+
+.cuadricula{
+    padding-left: 5%;
+}
+
+main p{
+    
+   /* margin-bottom: 7%; */
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 8%;
+}
+
+header h1{                                      /**     Configuración del encabezado    **/
+    background-color: black;
+    margin: 0;
+    padding: .5% 0;
+    text-align: center;
+}
+
+h1 > a:link, h1 >  a:visited, h1 > a:active {   /**    Configuración del Título principal    **/
+    color: rgb(100, 100,100);
+    font-family: 'Dancing Script', cursive;
+}
+
+nav{                                            /**     Configuración del menú de navegación   **/
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a:link, a:visited, a:active {
+    font-family: 'Oswald', sans-serif;
+    text-decoration:none;
+    color:rgb(200, 200, 200);
+}
+
+#menu-navegacion{
+    list-style-type: none;
+    margin: 0;
+    padding: 1% 0 1% 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 2% 0 2%;
+}
+
+li a{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+
+
+aside{                                      /**     Barra lateral       **/
+    width: 100%;
+    text-align: center;
+    padding: 10% 10% 0 0;
+}
+
+#foto-perfil{
+    max-width: 90%;
+    border-radius: 100%;
+    border: solid rgb(100, 100,100);
+    
+}
+
+
+
+#boton{                                     /**     Botón desplegar formulario  **/
+    min-width: 20px;
+   /* max-width: 15%; */
+    background-color: black;
+    color: rgb(200, 200, 200);
+}
+
+#boton:hover{
+    background-color: rgb(100, 100,100);
+}
+
+
+
+#form{                                      /**     Formulario     **/
+    max-width: 50%;
+    margin: 0 25%;
+}
+
+
+.caja-texto{
+    width: 100%;
+    margin: 1% 5%;
+    padding: 1%;
+}
+
+#mensaje{
+    width: 100%;
+   
+    margin: 1% 5%;
+    padding: 1%;
+}
+
+#boton-enviar{
+    min-width: 20px;
+    margin: 1% 5%;
+    padding: 2% 7%;
+    background-color: rgb(100, 100,100);
+    color: #fff;
+    border: solid 1px #000;
+}
+
+
+footer{
+    font-size: 65%;
+    text-align: center;
+}
