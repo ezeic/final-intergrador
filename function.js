@@ -112,7 +112,7 @@ function generarForm(){
  
    	//  Atributos de Mensaje  
    	cajaMensaje.setAttribute('placeholder', "Mensaje");
-    cajaMensaje.setAttribute('id', "mensaje");
+    cajaMensaje.setAttribute('id', "caja-mensaje");
  
     //  Atributos de boton Enviar 
 	botonEnviar.setAttribute('type', "button");

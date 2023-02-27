@@ -98,11 +98,7 @@ aside{                                      /**     Barra lateral       **/
     
 }
 
-/*
-aside b, aside p{
-    max-width: 100%;
-}
-*/
+
 
 #boton{                                     /**     Botón desplegar formulario  **/
     min-width: 20px;
@@ -118,18 +114,24 @@ aside b, aside p{
 
 #form{                                      /**     Formulario     **/
     max-width: 50%;
-    margin: 0 25%;
+    margin: 10% 25%;
 }
 
 
 .caja-texto{
-    width: 100%;
+    width: 35vw;
     margin: 1% 5%;
     padding: 1%;
 }
 
-#mensaje{
-    width: 100%;
+#caja-nombre{
+    width: 35vw;
+    margin: 15% 5% 1% 5%;
+    padding: 1%;
+}
+
+#caja-mensaje{
+    width: 35vw;
    
     margin: 1% 5%;
     padding: 1%;
@@ -140,8 +142,8 @@ aside b, aside p{
     margin: 1% 5%;
     padding: 2% 7%;
     background-color: rgb(100, 100,100);
-    color: #fff;
-    border: solid 1px #000;
+    color: white;
+    border: solid 1px black;
 }
 
 
